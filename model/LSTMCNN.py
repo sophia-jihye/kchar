@@ -2,6 +2,11 @@ from __future__ import print_function, division
 
 from math import exp
 
+### BY Jihye
+import tensorflow as tf
+from tensorflow import keras
+###
+
 from keras import initializers, regularizers, activations, constraints
 from keras.engine import Layer, InputSpec
 from keras.models import Model, model_from_json

@@ -1,6 +1,7 @@
 .project
 .pydevproject
 cv
+.ipynb_checkpoints/
 *.npy
 *.npz
 *.pyc
