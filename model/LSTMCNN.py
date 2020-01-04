@@ -14,6 +14,12 @@ from keras.layers import Input, Embedding, TimeDistributed, Dense, Dropout, Resh
 from keras.optimizers import SGD
 from keras import backend as K
 
+### BY Jihye
+config = K.tf.ConfigProto()
+config.gpu_options.allow_growth = True
+session = K.tf.Session(config=config)
+###
+
 class Highway(Layer):
     """Densely connected highway network.
     Highway layers are a natural extension of LSTMs to feedforward networks.
